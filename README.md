@@ -14,3 +14,4 @@ Ce dépôt contient mes solutions aux différents katas Codewars, couvrant plusi
 - Python
 - JavaScript
 - C
+- etc.
