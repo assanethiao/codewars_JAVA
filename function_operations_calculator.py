@@ -1,4 +1,4 @@
-/*
+"""
   Description:
   This time we want to write calculations using functions and get the results. Let's have a look at some examples:
 
@@ -14,7 +14,7 @@
   The most outer function represents the left operand, the most inner function represents the right operand
   Division should be integer division. For example, this should return 2, not 2.666666...:
   eight(dividedBy(three()));
-*/
+"""
 
 def zero(op=None):   return 0 if not op else op(0)
 def one(op=None):    return 1 if not op else op(1)
