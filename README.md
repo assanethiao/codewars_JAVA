@@ -1,9 +1,9 @@
 # codewars
 # Mes Réalisations Codewars
-Bienvenue dans mon dépôt GitHub où je partage mes solutions et réalisations sur [Codewars](https://www.codewars.com), une plateforme d'entraînement en programmation par défis (kata).
+Bienvenue dans mon dépôt GitHub où je partage mes solutions et réalisations sur [Codewars](https://www.codewars.com/users/assane_th00), une plateforme d'entraînement en programmation par défis (kata).
 
 ## À propos
-Ce dépôt contient mes solutions aux différents katas Codewars, couvrant plusieurs langages (Java, Python, C, etc.) et différents niveaux de difficulté. Mon objectif est d'améliorer mes compétences en algorithmique, logique et résolution de problèmes.
+Ce dépôt contient mes solutions aux différents katas Codewars, couvrant le langage Java et avec niveaux de difficulté. Mon objectif est d'améliorer mes compétences en algorithmique, logique et résolution de problèmes.
 
 ## Organisation
 - Chaque fichier correspond à la solution d’un kata spécifique, souvent avec un nom clair ou un commentaire explicatif.
@@ -11,7 +11,3 @@ Ce dépôt contient mes solutions aux différents katas Codewars, couvrant plusi
 
 ## Langages utilisés
 - Java
-- Python
-- JavaScript
-- C
-- etc.
