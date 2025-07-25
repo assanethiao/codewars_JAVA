@@ -1,32 +1,27 @@
 /**
  * Classe Catalog
- *
- * Cette classe contient une méthode statique `catalog` qui permet de rechercher un article 
- * dans un catalogue donné sous forme de chaîne XML simplifiée. 
- * 
- * Le catalogue est une chaîne contenant plusieurs produits encadrés par la balise <prod>, 
- * chaque produit contient un nom (<name>), un prix (<prx>) et une quantité (<qty>).
- * 
- * La méthode `catalog` :
- * - Sépare le catalogue en produits individuels.
- * - Recherche tous les produits dont le nom contient la chaîne passée en paramètre `article`.
- * - Pour chaque produit trouvé, elle extrait le nom, le prix et la quantité.
- * - Elle construit une chaîne de résultat listant chaque produit trouvé sur une ligne au format :
- *      "nom > prx: $prix qty: quantité"
- * - Si aucun produit ne correspond, elle renvoie "Nothing".
- *
- * Exemple d'utilisation :
- * 
- * String s = "<prod><name>drill</name><prx>99</prx><qty>5</qty></prod>\n\n" +
- *            "<prod><name>hammer</name><prx>10</prx><qty>50</qty></prod>\n\n" +
- *            "<prod><name>table saw</name><prx>1099.99</prx><qty>5</qty></prod>\n\n" +
- *            "<prod><name>saw</name><prx>9</prx><qty>10</qty></prod>";
- * 
- * System.out.println(Catalog.catalog(s, "saw"));
- * 
- * Résultat :
- * table saw > prx: $1099.99 qty: 5
- * saw > prx: $9 qty: 10
+ Cette classe contient une méthode statique `catalog` qui permet de rechercher un article dans un catalogue donné sous forme de chaîne XML simplifiée. 
+  
+ Le catalogue est une chaîne contenant plusieurs produits encadrés par la balise <prod>, chaque produit contient un nom (<name>), un prix (<prx>) et une quantité (<qty>).
+  
+ La méthode `catalog` :
+ - Sépare le catalogue en produits individuels.
+ - Recherche tous les produits dont le nom contient la chaîne passée en paramètre `article`.
+ - Pour chaque produit trouvé, elle extrait le nom, le prix et la quantité.
+ - Elle construit une chaîne de résultat listant chaque produit trouvé sur une ligne au format :"nom > prx: $prix qty: quantité"
+ - Si aucun produit ne correspond, elle renvoie "Nothing".
+ 
+ Exemple d'utilisation :
+ String s = "<prod><name>drill</name><prx>99</prx><qty>5</qty></prod>\n\n" +
+             "<prod><name>hammer</name><prx>10</prx><qty>50</qty></prod>\n\n" +
+             "<prod><name>table saw</name><prx>1099.99</prx><qty>5</qty></prod>\n\n" +
+             "<prod><name>saw</name><prx>9</prx><qty>10</qty></prod>";
+ 
+System.out.println(Catalog.catalog(s, "saw"));
+
+Résultat :
+table saw > prx: $1099.99 qty: 5
+saw > prx: $9 qty: 10
  */
 
 public class Catalog {
